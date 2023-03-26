@@ -1,0 +1,33 @@
+.container
+{
+    display: flex;
+}
+.box
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: gray;
+}
+.box1
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(62, 77, 214);
+}
+.container1
+{
+    position: relative;
+    left: -300px;
+    bottom: 550px;
+    margin-bottom: 25px;
+}
+.dragged
+{
+    border: dashed 5px black;
+}
