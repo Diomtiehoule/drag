@@ -1,6 +1,6 @@
 const boxs = document.querySelectorAll('.box1')
 const fBoxs = document.querySelectorAll('.box')
-
+const button = document.querySelector('.btn')
 // let dragged;
 for(let box of boxs){
 
@@ -21,6 +21,7 @@ box.ondragleave = () =>{
 box.ondragend = () =>{
     box.classList.remove('dragged')
     box.remove('active')
+    fBoxs.style.backgroundColor= 'green';
 };
 
 
